@@ -57,7 +57,6 @@ Pipeline is used to train multiple models, and to be able to evaluate which one 
 
 ## Model creation
 The decision tree model is selected, according to the Pipeline result. Using Cross Validate and a loop, the optimal depth of the tree is obtained. The model is trained with train_test_split. Then, we compare the results obtained with the one evaluated in the Pipeline, and we keep the most balanced.
-<p align="center"> <img src="https://static.vecteezy.com/system/resources/previews/001/234/042/original/decision-tree-design-vector.jpg" width="200px"> </p>
 
 ## Prediction
 With the model trained, the prediction of the feature is made, and it is exported to a file for further evaluation.
